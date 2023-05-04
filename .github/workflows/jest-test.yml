@@ -1,7 +1,11 @@
 name: Jest Test
 
-on: [push]
-
+on:
+  push:
+    branches:
+      - '*'
+    tags:
+      - master
 jobs:
   test:
     runs-on: ubuntu-latest
