@@ -2,8 +2,7 @@ name: Jest Test
 
 on:
   push:
-    branches:
-       - '*'
+
     branches-ignore:
       - main
 jobs:
