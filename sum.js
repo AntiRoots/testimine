@@ -1,8 +1,8 @@
-function sumNumbers(t, b) {
+function sumNumbers(h, b) {
     /*
     Tagastab kahe arvu summa.
     */
-    return t + b;
+    return h + b;
 }
 
 module.exports = sumNumbers;
