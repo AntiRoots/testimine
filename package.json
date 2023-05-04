@@ -1,5 +1,5 @@
 {
-  "name": "project-name",
+  "name": "testimine",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^27.4.7"
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
