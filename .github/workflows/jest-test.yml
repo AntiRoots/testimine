@@ -3,7 +3,10 @@ name: Jest Test
 on:
   push:
     branches:
-      - ! main
+           - '*'
+    tags-ignore:
+      - master
+      
 jobs:
   test:
     runs-on: ubuntu-latest
