@@ -3,7 +3,10 @@ name: Testimine
 on:
   push:
     branches:
-      - funksioonid
+      - main
+  pull request:
+    branches:
+      -main
 
 jobs:
   build:
